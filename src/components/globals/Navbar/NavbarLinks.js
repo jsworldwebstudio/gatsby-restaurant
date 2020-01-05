@@ -73,7 +73,7 @@ li {
 height: ${props => (props.open? '152px': '0px') };
 overflow: hidden;
 ${styles.transObject({ time: '1s' })};
-@media (min-width:768px){
+@media (min-width: 768px){
   height: auto;
   display: flex;
   margin: 0 auto;
